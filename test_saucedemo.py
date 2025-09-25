@@ -1,3 +1,4 @@
+# внесение изменений
 # flake8: noqa: E402
 # Добавляем корень проекта в sys.path для корректного импорта
 import sys
@@ -32,7 +33,7 @@ def driver() -> webdriver.Chrome:
 @pytest.mark.saucedemo
 @allure.title("Покупка товара на SauceDemo")
 @allure.description(
-    "Тест проверяет, что пользователь может добавить рюкзак в корзину и проверить его наличие")
+    "Тест проверяет, что пользователь может добавить рюкзак в корзину и проверить его наличие"
 )
 @allure.feature("SauceDemo Purchase")
 @allure.severity(allure.severity_level.CRITICAL)
