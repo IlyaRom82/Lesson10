@@ -1,0 +1,15 @@
+echo # Игнорируем кеш и байткод Python > .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignore
+echo *.pyo >> .gitignore
+echo *.pyd >> .gitignore
+echo  >> .gitignore
+echo # Игнорируем виртуальное окружение >> .gitignore
+echo .venv/ >> .gitignore
+echo  >> .gitignore
+echo # Игнорируем IDE-папки >> .gitignore
+echo .idea/ >> .gitignore
+echo .vscode/ >> .gitignore
+echo  >> .gitignore
+echo # Игнорируем отчёты >> .gitignore
+echo allure-results/ >> .gitignore
