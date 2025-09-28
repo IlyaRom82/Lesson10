@@ -1,3 +1,4 @@
+# пустая строка в начале
 import sys
 import os
 import pytest

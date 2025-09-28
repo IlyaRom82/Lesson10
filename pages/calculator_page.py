@@ -1,3 +1,4 @@
+# пустая строка в начале
 # PR placeholder: ничего не меняем, просто для отображения изменений2
 from selenium.webdriver.common.by import By
 

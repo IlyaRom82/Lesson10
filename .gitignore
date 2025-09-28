@@ -1,3 +1,4 @@
+# keep for PR.
 echo # Игнорируем кеш и байткод Python > .gitignore
 echo __pycache__/ >> .gitignore
 echo *.pyc >> .gitignore

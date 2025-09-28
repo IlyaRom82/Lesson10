@@ -1,3 +1,4 @@
+# пустая строка в начале
 pytest
 selenium
 allure-pytest
